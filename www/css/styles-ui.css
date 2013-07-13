@@ -1,0 +1,137 @@
+/* CSS Document */
+
+
+
+
+/*************************** button ********************/
+
+.minibutton {
+
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    
+    font-family: Helvetica,arial,freesans,clean,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 6px;
+    position: relative;
+    background: -moz-linear-gradient(#FAFAFA, #EAEAEA) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(#FAFAFA, #EAEAEA) repeat scroll 0 0 transparent;
+	background:  -webkit-linear-gradient(top, #fafafa 0%,#eaeaea 100%);
+	border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    border-style: solid;
+    border-width: 1px;
+	color: #333333;
+    text-shadow: 0 1px 0 #FFFFFF;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	
+}
+
+
+.minibutton:hover {
+	background: -moz-linear-gradient(#599BDC, #3072B3) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(#599BDC, #3072B3) repeat scroll 0 0 transparent;
+    border-color: #518CC6 #518CC6 #2A65A0;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+button.minibutton[disabled] {
+    cursor: default;
+    color:#bbb;
+}
+
+button.minibutton[disabled]:hover {
+    cursor: default;
+    background: -moz-linear-gradient(#FAFAFA, #EAEAEA) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(#FAFAFA, #EAEAEA) repeat scroll 0 0 transparent;
+	background:  -webkit-linear-gradient(top, #fafafa 0%,#eaeaea 100%);
+    border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    border-style: solid;
+    border-width: 1px;
+    color:#bbb;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+
+
+
+.toolbar-minibutton {
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 10px;
+    color: #6C6C6C;
+    background-color:transparent;
+    font-family: Helvetica,sans-serif;
+    
+     -moz-transition: box-shadow 100ms ease-in-out;
+	-webkit-transition: box-shadow 100ms ease-in-out;
+	transition: box-shadow 100ms ease-in-out;
+}
+
+.toolbar-minibutton:hover {
+    background: -moz-linear-gradient(#FAFAFA, #EAEAEA) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(#FAFAFA, #EAEAEA) repeat scroll 0 0 transparent;
+	background:  -webkit-linear-gradient(top, #fafafa 0%,#eaeaea 100%);
+   	border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    border-style: solid;
+    border-width: 1px;
+	color: #333333;
+    text-shadow: 0 1px 0 #FFFFFF;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 3px 9px;
+    text-decoration:none;
+    
+}
+
+.toolbar-minibutton:active {
+    padding: 3px 9px;
+	color: #005C9C;   
+	box-shadow: rgba(0, 0, 0, 0.14902) 0px 3px 5px inset;
+}
+
+.toolbar-minibutton.disabled,
+.toolbar-minibutton.disabled:hover {
+    cursor:default;
+    color: #c8c8c8;
+    border: 0;
+    box-shadow:none;
+    padding: 4px 10px;   
+    font-family: Helvetica,sans-serif;
+    background:none;
+}
+
+.toolbar-minibutton:hover > span.bubble {
+	right:-6px;
+}
+
+
+.btn-default {
+	
+}
+
+
+.bubble {
+  background-color:#E02424;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  color:#FFFFFF;
+  font-family:Tahoma, Arial, Helvetica;
+  /* font-size:0.9em; */
+  font-size:9px;
+  font-weight:bold;
+  line-height:normal;
+  padding:2px 4px;
+  position:absolute;
+  right:-5px;
+  top:-16px;
+  text-shadow:none;
+}
+
