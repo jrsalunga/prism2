@@ -1,20 +1,20 @@
 [
 	{
-	id: "00cadc877a4111e2baaf3085a942bd8e",
-	code: "pen001",
-	descriptor: "Pencil",
-	price: "5.00",
+	"id": "00cadc877a4111e2baaf3085a942bd8e",
+	"code": "pen001",
+	"descriptor": "Pencil",
+	"price": "5.00",
 	},
 	{
-	id: "00cadc877a4111e2baaf3085a942bd8e",
-	code: "prp125",
-	descriptor: "Paper",
-	price: "7.00",
+	"id": "00cadc877a4111e2baaf3085a942bd8e",
+	"code": "prp125",
+	"descriptor": "Paper",
+	"price": "7.00",
 	},
 	{
-	id: "00cadc877a4111e2baaf3085a942bd8e",
-	code: "nbk789",
-	descriptor: "Notebook",
-	price: "15.00",
+	"id": "00cadc877a4111e2baaf3085a942bd8e",
+	"code": "nbk789",
+	"descriptor": "Notebook",
+	"price": "15.00",
 	},
 ]
